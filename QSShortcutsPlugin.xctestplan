@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "148D89A1-CBE9-41C5-A235-FB45F17A478D",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:QSShortcutsPlugin.xcodeproj",
+        "identifier" : "603AE8EE28CE5ED700C67DD0",
+        "name" : "QSShortcutsPlugin Unit Tests"
+      }
+    }
+  ],
+  "version" : 1
+}

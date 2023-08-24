@@ -1,0 +1,5 @@
+# ShortcutsPlugin #
+
+## Launch and control your Shortcuts within Quicksilver ##
+
+Documentation for ShortcutsPlugin

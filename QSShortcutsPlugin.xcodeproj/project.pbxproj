@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		603AE8F228CE5ED700C67DD0 /* QSShortcutsPlugin_Unit_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603AE8F128CE5ED700C67DD0 /* QSShortcutsPlugin_Unit_Tests.swift */; };
+		603AE8FD28CE604C00C67DD0 /* QSInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 603AE8F928CE604C00C67DD0 /* QSInterface.framework */; };
+		603AE8FE28CE604C00C67DD0 /* QSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 603AE8FA28CE604C00C67DD0 /* QSCore.framework */; };
+		603AE8FF28CE604D00C67DD0 /* QSEffects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 603AE8FB28CE604C00C67DD0 /* QSEffects.framework */; };
+		603AE90028CE604D00C67DD0 /* QSFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 603AE8FC28CE604C00C67DD0 /* QSFoundation.framework */; };
+		609B1FC727F3C4E00048FFEB /* QSShortcutsPluginSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 609B1FC327F3C4E00048FFEB /* QSShortcutsPluginSource.m */; };
+		609B1FC827F3C4E00048FFEB /* QSShortcutsPluginAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 609B1FC427F3C4E00048FFEB /* QSShortcutsPluginAction.m */; };
+		D434B7751FC8FFC7007AF9C3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D434B7741FC8FFC7007AF9C3 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		603AE8F728CE601500C67DD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D434B7681FC8FFC7007AF9C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D434B7701FC8FFC7007AF9C3;
+			remoteInfo = QSShortcutsPlugin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		603AE8EF28CE5ED700C67DD0 /* Shortcuts Plugin1.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shortcuts Plugin1.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		603AE8F128CE5ED700C67DD0 /* QSShortcutsPlugin_Unit_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSShortcutsPlugin_Unit_Tests.swift; sourceTree = "<group>"; };
+		603AE8F628CE5F0800C67DD0 /* QSShortcutsPlugin.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = QSShortcutsPlugin.xctestplan; sourceTree = SOURCE_ROOT; };
+		603AE8F928CE604C00C67DD0 /* QSInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QSInterface.framework; path = ../../../../../private/tmp/QS/build/Debug/QSInterface.framework; sourceTree = "<group>"; };
+		603AE8FA28CE604C00C67DD0 /* QSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QSCore.framework; path = ../../../../../private/tmp/QS/build/Debug/QSCore.framework; sourceTree = "<group>"; };
+		603AE8FB28CE604C00C67DD0 /* QSEffects.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QSEffects.framework; path = ../../../../../private/tmp/QS/build/Debug/QSEffects.framework; sourceTree = "<group>"; };
+		603AE8FC28CE604C00C67DD0 /* QSFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QSFoundation.framework; path = ../../../../../private/tmp/QS/build/Debug/QSFoundation.framework; sourceTree = "<group>"; };
+		606D3146289F600F00A76A21 /* QSShortcutsPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSShortcutsPlugin.h; sourceTree = "<group>"; };
+		608539A027D15DA2004EE149 /* QSShortcutsPlugin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QSShortcutsPlugin-Bridging-Header.h"; sourceTree = "<group>"; };
+		609B1FC327F3C4E00048FFEB /* QSShortcutsPluginSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSShortcutsPluginSource.m; sourceTree = "<group>"; };
+		609B1FC427F3C4E00048FFEB /* QSShortcutsPluginAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSShortcutsPluginAction.m; sourceTree = "<group>"; };
+		609B1FC527F3C4E00048FFEB /* QSShortcutsPluginAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSShortcutsPluginAction.h; sourceTree = "<group>"; };
+		609B1FC627F3C4E00048FFEB /* QSShortcutsPluginSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSShortcutsPluginSource.h; sourceTree = "<group>"; };
+		D434B7711FC8FFC7007AF9C3 /* Shortcuts Plugin.qsplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shortcuts Plugin.qsplugin"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D434B7741FC8FFC7007AF9C3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		D46888911FC903AC00797047 /* Developer.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Developer.xcconfig; sourceTree = "<group>"; };
+		D46888921FC903AC00797047 /* Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		D46888931FC903AC00797047 /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		D46888941FC903AC00797047 /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		D46888951FC903AC00797047 /* Quicksilver.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quicksilver.pch; sourceTree = "<group>"; };
+		D46888961FC903AC00797047 /* QSPlugIn.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = QSPlugIn.xcconfig; sourceTree = "<group>"; };
+		D4EF80261FC9004F0025F5EA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		603AE8EC28CE5ED700C67DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				603AE8FD28CE604C00C67DD0 /* QSInterface.framework in Frameworks */,
+				603AE8FE28CE604C00C67DD0 /* QSCore.framework in Frameworks */,
+				603AE8FF28CE604D00C67DD0 /* QSEffects.framework in Frameworks */,
+				603AE90028CE604D00C67DD0 /* QSFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D434B76E1FC8FFC7007AF9C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D434B7751FC8FFC7007AF9C3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		603AE8F028CE5ED700C67DD0 /* QSShortcutsPlugin Unit Tests */ = {
+			isa = PBXGroup;
+			children = (
+				603AE8F128CE5ED700C67DD0 /* QSShortcutsPlugin_Unit_Tests.swift */,
+			);
+			path = "QSShortcutsPlugin Unit Tests";
+			sourceTree = "<group>";
+		};
+		D434B7671FC8FFC7007AF9C3 = {
+			isa = PBXGroup;
+			children = (
+				603AE8F628CE5F0800C67DD0 /* QSShortcutsPlugin.xctestplan */,
+				D46888901FC903AC00797047 /* Configuration */,
+				D434B7761FC8FFC7007AF9C3 /* QSShortcutsPlugin */,
+				603AE8F028CE5ED700C67DD0 /* QSShortcutsPlugin Unit Tests */,
+				D434B7731FC8FFC7007AF9C3 /* Frameworks */,
+				D434B7721FC8FFC7007AF9C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D434B7721FC8FFC7007AF9C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D434B7711FC8FFC7007AF9C3 /* Shortcuts Plugin.qsplugin */,
+				603AE8EF28CE5ED700C67DD0 /* Shortcuts Plugin1.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D434B7731FC8FFC7007AF9C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				603AE8FA28CE604C00C67DD0 /* QSCore.framework */,
+				603AE8FB28CE604C00C67DD0 /* QSEffects.framework */,
+				603AE8FC28CE604C00C67DD0 /* QSFoundation.framework */,
+				603AE8F928CE604C00C67DD0 /* QSInterface.framework */,
+				D434B7741FC8FFC7007AF9C3 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D434B7761FC8FFC7007AF9C3 /* QSShortcutsPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				606D3146289F600F00A76A21 /* QSShortcutsPlugin.h */,
+				609B1FC527F3C4E00048FFEB /* QSShortcutsPluginAction.h */,
+				609B1FC427F3C4E00048FFEB /* QSShortcutsPluginAction.m */,
+				609B1FC627F3C4E00048FFEB /* QSShortcutsPluginSource.h */,
+				609B1FC327F3C4E00048FFEB /* QSShortcutsPluginSource.m */,
+				D4EF80261FC9004F0025F5EA /* Info.plist */,
+				608539A027D15DA2004EE149 /* QSShortcutsPlugin-Bridging-Header.h */,
+			);
+			path = QSShortcutsPlugin;
+			sourceTree = "<group>";
+		};
+		D46888901FC903AC00797047 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				D46888911FC903AC00797047 /* Developer.xcconfig */,
+				D46888921FC903AC00797047 /* Common.xcconfig */,
+				D46888931FC903AC00797047 /* Debug.xcconfig */,
+				D46888941FC903AC00797047 /* Release.xcconfig */,
+				D46888951FC903AC00797047 /* Quicksilver.pch */,
+				D46888961FC903AC00797047 /* QSPlugIn.xcconfig */,
+			);
+			name = Configuration;
+			path = /private/tmp/QS/Configuration;
+			sourceTree = "<absolute>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		603AE8EE28CE5ED700C67DD0 /* Shortcuts Plugin1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 603AE8F528CE5ED700C67DD0 /* Build configuration list for PBXNativeTarget "Shortcuts Plugin1" */;
+			buildPhases = (
+				603AE8EB28CE5ED700C67DD0 /* Sources */,
+				603AE8EC28CE5ED700C67DD0 /* Frameworks */,
+				603AE8ED28CE5ED700C67DD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				603AE8F828CE601500C67DD0 /* PBXTargetDependency */,
+			);
+			name = "Shortcuts Plugin1";
+			productName = "QSShortcutsPlugin Unit Tests";
+			productReference = 603AE8EF28CE5ED700C67DD0 /* Shortcuts Plugin1.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D434B7701FC8FFC7007AF9C3 /* Shortcuts Plugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D434B7851FC8FFC7007AF9C3 /* Build configuration list for PBXNativeTarget "Shortcuts Plugin" */;
+			buildPhases = (
+				D434B76C1FC8FFC7007AF9C3 /* ShellScript */,
+				D434B76D1FC8FFC7007AF9C3 /* Sources */,
+				D434B76E1FC8FFC7007AF9C3 /* Frameworks */,
+				D434B76F1FC8FFC7007AF9C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shortcuts Plugin";
+			productName = QSShortcutsPlugin;
+			productReference = D434B7711FC8FFC7007AF9C3 /* Shortcuts Plugin.qsplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D434B7681FC8FFC7007AF9C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Quicksilver;
+				TargetAttributes = {
+					603AE8EE28CE5ED700C67DD0 = {
+						CreatedOnToolsVersion = 13.4.1;
+						ProvisioningStyle = Automatic;
+					};
+					D434B7701FC8FFC7007AF9C3 = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 1320;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = D434B76B1FC8FFC7007AF9C3 /* Build configuration list for PBXProject "QSShortcutsPlugin" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D434B7671FC8FFC7007AF9C3;
+			productRefGroup = D434B7721FC8FFC7007AF9C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D434B7701FC8FFC7007AF9C3 /* Shortcuts Plugin */,
+				603AE8EE28CE5ED700C67DD0 /* Shortcuts Plugin1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		603AE8ED28CE5ED700C67DD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D434B76F1FC8FFC7007AF9C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D434B76C1FC8FFC7007AF9C3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "\"$QS_BUILD_ROOT/Tools/bltrversion\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		603AE8EB28CE5ED700C67DD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				603AE8F228CE5ED700C67DD0 /* QSShortcutsPlugin_Unit_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D434B76D1FC8FFC7007AF9C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				609B1FC827F3C4E00048FFEB /* QSShortcutsPluginAction.m in Sources */,
+				609B1FC727F3C4E00048FFEB /* QSShortcutsPluginSource.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		603AE8F828CE601500C67DD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D434B7701FC8FFC7007AF9C3 /* Shortcuts Plugin */;
+			targetProxy = 603AE8F728CE601500C67DD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		603AE8F328CE5ED700C67DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QSShortcutsPlugin.qsplugin/Contents/MacOS/QSShortcutsPlugin";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blacktree.QSShortcutsPlugin.QSShortcutsPlugin-Unit-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "QSShortcutsPlugin/QSShortcutsPlugin-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		603AE8F428CE5ED700C67DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blacktree.QSShortcutsPlugin.QSShortcutsPlugin-Unit-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "QSShortcutsPlugin/QSShortcutsPlugin-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D434B7831FC8FFC7007AF9C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D46888931FC903AC00797047 /* Debug.xcconfig */;
+			buildSettings = {
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D434B7841FC8FFC7007AF9C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D46888941FC903AC00797047 /* Release.xcconfig */;
+			buildSettings = {
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D434B7861FC8FFC7007AF9C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D46888961FC903AC00797047 /* QSPlugIn.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/QSShortcutsPlugin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "QSShortcutsPlugin/QSShortcutsPlugin-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D434B7871FC8FFC7007AF9C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D46888961FC903AC00797047 /* QSPlugIn.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/QSShortcutsPlugin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "QSShortcutsPlugin/QSShortcutsPlugin-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		603AE8F528CE5ED700C67DD0 /* Build configuration list for PBXNativeTarget "Shortcuts Plugin1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				603AE8F328CE5ED700C67DD0 /* Debug */,
+				603AE8F428CE5ED700C67DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D434B76B1FC8FFC7007AF9C3 /* Build configuration list for PBXProject "QSShortcutsPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D434B7831FC8FFC7007AF9C3 /* Debug */,
+				D434B7841FC8FFC7007AF9C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D434B7851FC8FFC7007AF9C3 /* Build configuration list for PBXNativeTarget "Shortcuts Plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D434B7861FC8FFC7007AF9C3 /* Debug */,
+				D434B7871FC8FFC7007AF9C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D434B7681FC8FFC7007AF9C3 /* Project object */;
+}

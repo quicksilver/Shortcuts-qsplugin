@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.qsapp.ShortcutsPluginPlugin</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>CFBundleDisplayName</key>
+	<string>ShortcutsPlugin Plugin</string>
+	<key>QSActions</key>
+	<dict>
+		<key>runShortcutAction</key>
+		<dict>
+			<key>actionClass</key>
+			<string>QSShortcutsPluginAction</string>
+			<key>actionSelector</key>
+			<string>runShortcut:</string>
+			<key>commandFormat</key>
+			<string>Run the shortcut: %@</string>
+			<key>directTypes</key>
+			<array>
+				<string>QSShortcutsPluginType</string>
+				<string>NSStringPboardType</string>
+			</array>
+			<key>displaysResult</key>
+			<false/>
+			<key>name</key>
+			<string>Run Shortcut</string>
+			<key>validatesObjects</key>
+			<false/>
+			<key>precedence</key>
+			<string>4</string>
+		</dict>
+	</dict>
+	<key>QSPlugIn</key>
+	<dict>
+		<key>author</key>
+		<string>Patrick Robertson</string>
+		<key>categories</key>
+		<array>
+			<string>TBD</string>
+		</array>
+		<key>description</key>
+		<string>Launch and control your Shortcuts within Quicksilver</string>
+		<key>extendedDescription</key>
+		<string>&lt;h1&gt;ShortcutsPlugin&lt;/h1&gt;
+&lt;h2&gt;Launch and control your Shortcuts within Quicksilver&lt;/h2&gt;
+&lt;p&gt;Documentation for ShortcutsPlugin&lt;/p&gt;</string>
+		<key>icon</key>
+		<string>/System/Applications/Shortcuts.app</string>
+	</dict>
+	<key>QSPresetAdditions</key>
+	<array>
+		<dict>
+			<key>ID</key>
+			<string>QSShortcutsSource</string>
+			<key>enabled</key>
+			<true/>
+			<key>icon</key>
+			<string>/System/Applications/Shortcuts.app</string>
+			<key>name</key>
+			<string>Shortcuts</string>
+			<key>source</key>
+			<string>QSShortcutsPluginSource</string>
+		</dict>
+	</array>
+	<key>QSRegistration</key>
+	<dict>
+		<key>QSActionProviders</key>
+		<dict>
+			<key>QSShortcutsPluginAction</key>
+			<string>QSShortcutsPluginAction</string>
+		</dict>
+		<key>QSObjectHandlers</key>
+		<dict>
+			<key>QSShortcutsPluginType</key>
+			<string>QSShortcutsPluginSource</string>
+		</dict>
+		<key>QSObjectSources</key>
+		<dict>
+			<key>QSShortcutsPluginSource</key>
+			<string>QSShortcutsPluginSource</string>
+		</dict>
+		<key>QSTypeDefinitions</key>
+		<dict>
+			<key>QSShortcutsPluginType</key>
+			<dict>
+				<key>icon</key>
+				<string>/System/Applications/Shortcuts.app</string>
+				<key>name</key>
+				<string>Shortcuts</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>QSRequirementsTemplate</key>
+	<dict>
+		<key>version</key>
+		<string>4012</string>
+	</dict>
+</dict>
+</plist>
