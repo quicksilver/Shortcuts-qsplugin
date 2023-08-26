@@ -24,10 +24,10 @@
         NSBeep();
         return nil;
     }
-  NSString* command = [NSString stringWithFormat:@"shortcuts run \"%@\"", shortcutName];
+    
   NSTask* task = [[NSTask alloc]init];
-  [task setLaunchPath:@"/bin/bash"];
-  [task setArguments:@[@"-c", command]];
+  [task setLaunchPath:@"/usr/bin/shortcuts"];
+  [task setArguments:@[@"run", shortcutName]];
   [task launch];
   [task waitUntilExit];
 	return nil;
