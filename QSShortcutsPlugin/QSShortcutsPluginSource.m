@@ -29,8 +29,8 @@ static NSString *shortcutsDB = @"~/Library/Shortcuts/Shortcuts.dat";
 {
 	// run the command "shortcuts list", and parse line into a separate object for each line
 	NSTask* task = [[NSTask alloc]init];
-	[task setLaunchPath:@"/bin/bash"];
-	[task setArguments:@[@"-c", @"shortcuts list"]];
+	[task setLaunchPath:@"/usr/bin/shortcuts"];
+	[task setArguments:@[@"list"]];
 	NSPipe* pipe = [NSPipe pipe];
 	[task setStandardOutput:pipe];
 	[task launch];
