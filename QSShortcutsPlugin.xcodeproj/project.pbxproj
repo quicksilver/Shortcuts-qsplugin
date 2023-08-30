@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		603AE8EF28CE5ED700C67DD0 /* Shortcuts Plugin1.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shortcuts Plugin1.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		603AE8EF28CE5ED700C67DD0 /* Shortcuts Plugin Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shortcuts Plugin Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		603AE8F128CE5ED700C67DD0 /* QSShortcutsPlugin_Unit_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSShortcutsPlugin_Unit_Tests.swift; sourceTree = "<group>"; };
 		603AE8F628CE5F0800C67DD0 /* QSShortcutsPlugin.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = QSShortcutsPlugin.xctestplan; sourceTree = SOURCE_ROOT; };
 		603AE8F928CE604C00C67DD0 /* QSInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QSInterface.framework; path = ../../../../../private/tmp/QS/build/Debug/QSInterface.framework; sourceTree = "<group>"; };
@@ -41,7 +41,7 @@
 		609B1FC427F3C4E00048FFEB /* QSShortcutsPluginAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSShortcutsPluginAction.m; sourceTree = "<group>"; };
 		609B1FC527F3C4E00048FFEB /* QSShortcutsPluginAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSShortcutsPluginAction.h; sourceTree = "<group>"; };
 		609B1FC627F3C4E00048FFEB /* QSShortcutsPluginSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSShortcutsPluginSource.h; sourceTree = "<group>"; };
-		D434B7711FC8FFC7007AF9C3 /* Shortcuts Plugin.qsplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shortcuts Plugin.qsplugin"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D434B7711FC8FFC7007AF9C3 /* Shortcuts Plugin.qsplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Shortcuts Plugin.qsplugin"; path = "Shortcuts Plugin.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D434B7741FC8FFC7007AF9C3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		D46888911FC903AC00797047 /* Developer.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Developer.xcconfig; sourceTree = "<group>"; };
 		D46888921FC903AC00797047 /* Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
@@ -99,7 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				D434B7711FC8FFC7007AF9C3 /* Shortcuts Plugin.qsplugin */,
-				603AE8EF28CE5ED700C67DD0 /* Shortcuts Plugin1.xctest */,
+				603AE8EF28CE5ED700C67DD0 /* Shortcuts Plugin Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,9 +147,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		603AE8EE28CE5ED700C67DD0 /* Shortcuts Plugin1 */ = {
+		603AE8EE28CE5ED700C67DD0 /* Shortcuts Plugin Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 603AE8F528CE5ED700C67DD0 /* Build configuration list for PBXNativeTarget "Shortcuts Plugin1" */;
+			buildConfigurationList = 603AE8F528CE5ED700C67DD0 /* Build configuration list for PBXNativeTarget "Shortcuts Plugin Tests" */;
 			buildPhases = (
 				603AE8EB28CE5ED700C67DD0 /* Sources */,
 				603AE8EC28CE5ED700C67DD0 /* Frameworks */,
@@ -160,9 +160,9 @@
 			dependencies = (
 				603AE8F828CE601500C67DD0 /* PBXTargetDependency */,
 			);
-			name = "Shortcuts Plugin1";
+			name = "Shortcuts Plugin Tests";
 			productName = "QSShortcutsPlugin Unit Tests";
-			productReference = 603AE8EF28CE5ED700C67DD0 /* Shortcuts Plugin1.xctest */;
+			productReference = 603AE8EF28CE5ED700C67DD0 /* Shortcuts Plugin Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		D434B7701FC8FFC7007AF9C3 /* Shortcuts Plugin */ = {
@@ -217,7 +217,7 @@
 			projectRoot = "";
 			targets = (
 				D434B7701FC8FFC7007AF9C3 /* Shortcuts Plugin */,
-				603AE8EE28CE5ED700C67DD0 /* Shortcuts Plugin1 */,
+				603AE8EE28CE5ED700C67DD0 /* Shortcuts Plugin Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -467,7 +467,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		603AE8F528CE5ED700C67DD0 /* Build configuration list for PBXNativeTarget "Shortcuts Plugin1" */ = {
+		603AE8F528CE5ED700C67DD0 /* Build configuration list for PBXNativeTarget "Shortcuts Plugin Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				603AE8F328CE5ED700C67DD0 /* Debug */,

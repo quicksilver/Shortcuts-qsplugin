@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D434B7701FC8FFC7007AF9C3"
-               BuildableName = "Shortcuts Plugin.qsplugin"
+               BuildableName = "Shortcuts Plugin.bundle"
                BlueprintName = "Shortcuts Plugin"
                ReferencedContainer = "container:QSShortcutsPlugin.xcodeproj">
             </BuildableReference>
@@ -60,7 +60,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D434B7701FC8FFC7007AF9C3"
-            BuildableName = "Shortcuts Plugin.qsplugin"
+            BuildableName = "Shortcuts Plugin.bundle"
             BlueprintName = "Shortcuts Plugin"
             ReferencedContainer = "container:QSShortcutsPlugin.xcodeproj">
          </BuildableReference>
