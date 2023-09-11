@@ -13,9 +13,9 @@
 	<key>CFBundleName</key>
 	<string>$(PRODUCT_NAME)</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.0</string>
+	<string>1.0.1</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>2</string>
 	<key>CFBundleDisplayName</key>
 	<string>ShortcutsPlugin Plugin</string>
 	<key>QSActions</key>
@@ -31,7 +31,6 @@
 			<key>directTypes</key>
 			<array>
 				<string>QSShortcutsPluginType</string>
-				<string>NSStringPboardType</string>
 			</array>
 			<key>displaysResult</key>
 			<false/>
